@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>The Fund</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- ================= Favicon ================== -->
+    <link rel="icon" sizes="72x72" href="images/favicon-96x96.png">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900%7COpen+Sans:300,400,600,700,800" rel="stylesheet">
+    <!-- Font Awesome css-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Bootsrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Magnific Popup-->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Select2 -->
+    <link rel="stylesheet" href="css/select2.min.css">
+    <!-- Countdown css-->
+   <link rel="stylesheet" href="css/jquery.countdown.css">
+    <!-- Animate css-->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Style-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Color Swhicher css-->
+	<link data-style="color-style" rel="stylesheet" href="css/color-blue.css">
+    <!-- Modernizr-->
+    <script src="js/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="preloader">
+        <div class="loader-inner ball-scale-multiple">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!--/.preloader-->
+    <div class="color-shicher-wraper">
+        <div class="swhicher-button">
+            <button data-att="color-yellow" type="button" class="yellow-bg"></button>
+            <button data-att="color-green" type="button" class="green-bg"></button>
+            <button data-att="color-cyan" type="button" class="cyan-bg"></button>
+            <button data-att="color-red" type="button" class="red-bg"></button><br/>
+            <button data-att="color-purple" type="button" class="purple-bg"></button>
+            <button data-att="color-pink" type="button" class="pink-bg"></button>
+            <button data-att="color-gradient" type="button" class="gradient-bg"></button><br/><br/>
+            <div class="tobar-fixed-check">
+                <input type="checkbox" id="topbar-fixed"/><label for="topbar-fixed"> Menu fixed when scroll </label>
+            </div>
+            <div class="backtop-top-check">
+                <input type="checkbox" id="backtotop-fixed"/><label for="backtotop-fixed"> Back to top hide/show</label>
+            </div>
+            <div class="removetopbar">
+                <input type="checkbox" id="topbar-checked"/><label for="topbar-checked"> Topbar show/hide </label>
+            </div><br/>
+            <a href="#" class="btn">Purchase</a>
+        </div>
+        <div class="setting-button-wrapper">
+            <button type="button" class="setting-button"></button>
+        </div>
+    </div><!--/.color-shicher-wraper-->
+    <header class="fund-header">
+        <div class="top-bar base-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 text-xs-center">
+                        <div class="top-bar__contact">
+                            <i class="fa fa-envelope"></i> <span class="pdl5">info@thefund.com</span>
+                            <span class="pdl15 pdr15">|</span>
+                            <i class="fa fa-phone-square"></i> <span class="pdl5">+880 1234 2547 89</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 text-right text-xs-center">
+                        <div class="social-icons ">
+                            <span>Follow Us On : </span>
+                            <ul class="list-inline pdl20">
+                                <li><a href="#"><i class="fa fa-facebook"></i> </a> </li>
+                                <li><a href="#"><i class="fa fa-twitter"></i> </a> </li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i> </a> </li>
+                                <li><a href="#"><i class="fa fa-instagram"></i> </a> </li>
+                                <li><a href="#"><i class="fa fa-vk"></i> </a> </li>
+                                <li><a href="#"><i class="fa fa-pinterest"></i> </a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="mobile-background-nav">
+        <div class="mobile-inner">
+            <span class="mobile-menu-close"><i class="icon-icomooon-close"></i></span>
+            <ul class="menu-accordion">
+                <li><a href="index.html" class="has-submenu">Home <i class="fa fa-angle-down"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="index.html">Home One</a></li>
+                        <li><a href="index-two.html">Home Two</a></li>
+                    </ul>
+                </li>
+                <li><a href="events.html" class="has-submenu">Events<i class="fa fa-angle-down"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="event-details.html">Event Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html" class="has-submenu">Blog<i class="fa fa-angle-down"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="blog-details.html">Blog Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="causes.html" class="has-submenu">Causes<i class="fa fa-angle-down"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="causes.html">Causes</a></li>
+                        <li><a href="causes-details.html">Causes Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+           </ul>
+        </div>
+    </nav>
+    <div class="main-menu-area">
+        <div class="container">
+            <div class="menu-logo">
+                <div class="logo">
+                    <a href="index.html" class="logo-index"><img src="images/logo.png" alt="" /></a>
+                </div>
+                <nav id="easy-menu">
+                    <ul class="menu-list">
+                        <li><a href="index.html">Home <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown">
+                                <li><a href="index.html">Home One</a></li>
+                                <li><a href="index-two.html">Home Two</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="events.html">Events <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown">
+                                <li><a href="events.html">Events</a></li>
+                                <li><a href="event-details.html">Event Details</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="blog.html">Blog <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown">
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="blog-details.html">Blog Details</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="causes.html">Causes <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown">
+                                <li><a href="causes.html">Causes</a></li>
+                                <li><a href="causes-details.html">Causes Details</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="contact-us.html">Contact</a></li>
+                   </ul>
+               </nav><!--#easy-menu-->
+               <div class="donate-button-wrap">
+                   <a href="donate.html" class="btn base-bg hidden-xs hidden-sm">Donet Now</a>
+                   <a href="#" class="hidden-lg hidden-md" id="humbarger-icon"><i class="fa fa-bars"></i> </a>
+               </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-area banner-area--blog all-text-white text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="page-title">BLOG DETAILS</h1>
+                    <ul class="fund-breadcumb">
+                        <li><a href="index.html">Home</a> </li>
+                        <li><a href="blog-details.html">Blog details</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-content section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="blog-details">
+                        <div class="blog-details-top mb40">
+                            <div class="blog-details-image mb10">
+                                <img src="images/blog/blog-details1.jpg" alt="blog details">
+                            </div>
+                            <div class="blog-details-top__text-content">
+                                <h3 class="blog-details__title">HELPING KIDS FOR GROW UP STRONGER</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                <div class="blog-details__meta">
+                                    <div class="blog-details__meta-item base-color"><i class="fa fa-calendar pdr5"></i>25 January</div>
+                                    <div class="blog-details__meta-item"><i class="fa fa-user pdr5"></i>Admin</div>
+                                    <div class="blog-details__meta-item"><i class="fa fa-comments-o pdr5"></i>5</div>
+                                    <div class="blog-details__meta-item"><i class="fa fa-heart pdr5"></i>15</div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in .</p><br/><br/>
+                        <h3 class="blog-details__title">WHAT PEOPLE SAYS ?</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
+                        <div class="quote-box ash-white-bg mb40 mt40">
+                            <i class="fa fa-quote-left quote-icon"></i>
+                            <em class="quote-text nv-color">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua"</em><br/><br/>
+                            <span class="base-color">Mark Mokovic</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore to magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in. </p>
+                        <br/><br/>
+                        <h3 class="blog-details__title">WHAT PEOPLE THINK</h3>
+                        <div class="images-box-wrap pdt15">
+                            <div class="left-images">
+                                <img src="images/blog/blog-details2.jpg" class="mb30 img-round" alt="">
+                                <img src="images/blog/blog-details3.jpg" class="mb30 img-round" alt="">
+                            </div>
+                            <div class="right-images">
+                                <img src="images/blog/blog-details4.jpg" class="mb30 img-round" alt="">
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore to magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in. </p><br/>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="images/blog/blog-details5.jpg" class="mb30 img-round" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="text-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore to magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                                    <ul class="fund-arrow-left-list pdb10">
+                                        <li>Charity sees the need not the cause</li>
+                                        <li>Be devoted to one another in brotherly love</li>
+                                        <li>Feed the hungry, and help those in trouble</li>
+                                        <li>Distributing to the necessity of saints given to</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-icons ">
+                            <span>Follow Us On : </span>
+                            <ul class="list-inline pdl20">
+                                <li><a href="#"><i class="fa fa-facebook"></i> </a> </li>
+                                <li><a href="#"><i class="fa fa-twitter"></i> </a> </li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i> </a> </li>
+                                <li><a href="#"><i class="fa fa-instagram"></i> </a> </li>
+                                <li><a href="#"><i class="fa fa-vk"></i> </a> </li>
+                                <li><a href="#"><i class="fa fa-pinterest"></i> </a> </li>
+                            </ul>
+                        </div>
+                        <div class="blog-details-bottom mt40">
+                            <div class="blog-details-navigation mt35 mb50">
+                                <a href="#" class="previous-post">Previous Post</a>
+                                <a href="#" class="next-post pull-right" >Next Post</a>
+                            </div>
+                        </div>
+                        <div class="author-info">
+                            <div class="author-info__image-wrap">
+                                <img src="images/blog/author.jpg" class="img-circle" alt="">
+                            </div>
+                            <div class="author-info__text-content">
+                                <h5 class="author-info__name base-color">John Joe</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec justo the fringilla, laoreet mauris vitae, fringilla elit. Curabitur semper tristique nisi, at leo ornare rutrum. Proin lacinia the vulputate urna,</p>
+                            </div>
+                        </div>
+                        <div class="comments-wrap pdt50 mt45">
+                            <h3 class="comments-title">5 COMMENTS</h3>
+                            <div class="single-comment-wrap">
+                                <div class="single-comment">
+                                    <div class="single-comment__image">
+                                        <img src="images/blog/comment1.jpg" class="img-circle" alt="">
+                                    </div>
+                                    <div class="single-comment__text-content">
+                                        <h4 class="single-comment__name">Ibrahim ibn al-Walid</h4>
+                                        <a href="#" class="single-comment__reply-button base-color">Reply</a>
+                                        <em class="single-comment__time-ago">23 minutes</em>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec justo fringilla, laoreet mauris vitae, fringilla elit. Curabitur semper tristique nisi, at ultricies leo ornare rutrum. Proin laci vulputate urna, non pharetra ligula finibus nec. Vestibulum id mattis risus.</p>
+                                    </div>
+                                </div>
+                                <div class="single-comment-wrap">
+                                    <div class="single-comment">
+                                        <div class="single-comment__image">
+                                            <img src="images/blog/comment2.jpg" class="img-circle" alt="">
+                                        </div>
+                                        <div class="single-comment__text-content">
+                                            <h4 class="single-comment__name">Ibrahim ibn al-Walid</h4>
+                                            <a href="#" class="single-comment__reply-button base-color">Reply</a>
+                                            <em class="single-comment__time-ago">18 minutes</em>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec justo fringilla, laoreet mauris vitae, fringilla elit. Curabitur semper tristique nisi, at ultricies leo ornare rutrum. Proin laci vulputate urna, non pharetra ligula finibus nec. Vestibulum id mattis risus.</p>
+                                        </div>
+                                    </div>
+                                    <div class="single-comment-wrap">
+                                        <div class="single-comment">
+                                            <div class="single-comment__image">
+                                                <img src="images/blog/comment3.jpg" class="img-circle" alt="">
+                                            </div>
+                                            <div class="single-comment__text-content">
+                                                <h4 class="single-comment__name">Admin</h4>
+                                                <a href="#" class="single-comment__reply-button base-color">Reply</a>
+                                                <em class="single-comment__time-ago">16 minutes</em>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec justo fringilla, laoreet mauris vitae, fringilla elit. Curabitur semper tristique nisi, at ultricies leo ornare rutrum. Proin laci vulputate urna, non pharetra ligula finibus nec. Vestibulum id mattis risus.</p>
+                                            </div>
+                                        </div>
+                                    </div><!--/.single-comment-wrap-->
+                                </div><!--/.single-comment-wrap-->
+                            </div><!--/.single-comment-wrap-->
+                            <div class="single-comment-wrap">
+                                <div class="single-comment">
+                                    <div class="single-comment__image">
+                                        <img src="images/blog/comment1.jpg" class="img-circle" alt="">
+                                    </div>
+                                    <div class="single-comment__text-content">
+                                        <h4 class="single-comment__name">Admin</h4>
+                                        <a href="#" class="single-comment__reply-button base-color">Reply</a>
+                                        <em class="single-comment__time-ago">23 Days</em>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec justo fringilla, laoreet mauris vitae, fringilla elit. Curabitur semper tristique nisi, at ultricies leo ornare rutrum. Proin laci vulputate urna, non pharetra ligula finibus nec. Vestibulum id mattis risus.</p>
+                                    </div>
+                                </div>
+                            </div><!--/.single-comment-wrap-->
+                            <div class="single-comment-wrap">
+                                <div class="single-comment">
+                                    <div class="single-comment__image">
+                                        <img src="images/blog/comment4.jpg" class="img-circle" alt="">
+                                    </div>
+                                    <div class="single-comment__text-content">
+                                        <h4 class="single-comment__name">Uthman ibn Affan</h4>
+                                        <a href="#" class="single-comment__reply-button base-color">Reply</a>
+                                        <em class="single-comment__time-ago">Nov, 23, 2013</em>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec justo fringilla, laoreet mauris vitae, fringilla elit. Curabitur semper tristique nisi, at ultricies leo ornare rutrum. Proin laci vulputate urna, non pharetra ligula finibus nec. Vestibulum id mattis risus.</p>
+                                    </div>
+                                </div>
+                            </div><!--/.single-comment-wrap-->
+                        </div>
+                        <div class="leave-comment pdt50 mt20 mb30">
+                            <h3 class="leave-comment__title text-uppercase">Leave Your COMMENT</h3>
+                            <form class="leave-comment__form mt40">
+                                <div class="leave-comment__top-fields">
+                                    <div class="input-group">
+                                        <input type="text" placeholder="Name" class="input-group__input form-control">
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="email" placeholder="Email" class="input-group__input form-control">
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="url" placeholder="Website" class="input-group__input form-control">
+                                    </div>
+                                </div>
+                                <div class="input-group">
+                                    <textarea class="input-group__textarea form-control" placeholder="Message" rows="8" cols="80"></textarea>
+                                </div>
+                                <input type="submit" class="btn base-bg" value="Leave a Comment"/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <aside class="sidebar">
+                        <div class="widget">
+                            <div class="widget__heading">
+                                <h4 class="widget__title">UPCOMING <span class="base-color">EVENTS</span></h4>
+                            </div>
+                            <div class="widget__text-content">
+                                <div class="upcomming-event-carousel" id="upcomming-event-carousel">
+                                    <div class="upcomming-event-carousel__item">
+                                        <div class="image text-center">
+                                            <a href="#"><img class="event-thumbnail" src="images/sidebar/upcomming-event1.jpg" alt="up">
+                                            <h4 class="upcomming-event-carousel__title">Finding Time in Nature</h4></a>
+
+                                        </div>
+                                        <div class="event-counter">
+                                            <div id="event-counter-one" class="musica-counter-active" data-value-year="2018" data-value-month="9" data-value-day="28" data-value-zone="+10" ></div>
+                                        </div>
+                                    </div><!--/.upcomming-event-carousel__item-->
+                                    <div class="upcomming-event-carousel__item">
+                                        <div class="image text-center">
+                                            <a href="#"><img class="event-thumbnail" src="images/sidebar/upcomming-event1.jpg" alt="up">
+                                            <h4 class="upcomming-event-carousel__title">Finding Time in Nature</h4></a>
+
+                                        </div>
+                                        <div class="event-counter">
+                                            <div id="event-counter-two" class="musica-counter-active" data-value-year="2018" data-value-month="9" data-value-day="28" data-value-zone="+10" ></div>
+                                        </div>
+                                    </div><!--/.upcomming-event-carousel__item-->
+                                    <div class="upcomming-event-carousel__item">
+                                        <div class="image text-center">
+                                            <a href="#"><img class="event-thumbnail" src="images/sidebar/upcomming-event1.jpg" alt="up">
+                                            <h4 class="upcomming-event-carousel__title">Finding Time in Nature</h4></a>
+
+                                        </div>
+                                        <div class="event-counter">
+                                            <div id="event-counter-three" class="musica-counter-active" data-value-year="2018" data-value-month="9" data-value-day="28" data-value-zone="+10" ></div>
+                                        </div>
+                                    </div><!--/.upcomming-event-carousel__item-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget widget--category">
+                            <div class="widget__heading">
+                                <h4 class="widget__title">CATAGORY</h4>
+                            </div>
+                            <div class="widget__text-content">
+                                <ul>
+                                    <li><a href="#" class="pdr10">Accommodation</a><span class="post-count">4</span></li>
+                                    <li><a href="#" class="pdr10">Children Protection</a><span class="post-count">7</span></li>
+                                    <li><a href="#" class="pdr10">Donation Event</a><span class="post-count">2</span></li>
+                                    <li><a href="#" class="pdr10">Education</a><span class="post-count">5</span></li>
+                                    <li><a href="#" class="pdr10">Food Supply</a><span class="post-count">3</span></li>
+                                    <li><a href="#" class="pdr10">Health Care </a><span class="post-count">2</span></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="widget">
+                            <div class="widget__heading">
+                                <h4 class="widget__title">LATEST <span class="base-color">CAUSES</span></h4>
+                            </div>
+                            <div class="widget__text-content">
+                                <div class="widget-latest-causes">
+                                    <div class="widget-latest-causes__image-wrap">
+                                        <a href="#"><img class="widget-latest-causes__thubnail" src="images/sidebar/latest-causes1.jpg" alt=""></a>
+                                    </div>
+                                    <div class="widget-latest-causes__text-content">
+                                        <h4 class="widget-latest-causes__title"><a href="#">Cause Title Gose here</a></h4>
+                                        <div class="widget-latest-causes__admin small-text">
+                                            <i class="base-color fa fa-user widget-latest-causes__admin-icon"></i>
+                                            by <a href="#">Admin</a>
+                                        </div>
+                                        <div class="widget-latest-causes__time text-mute">
+                                            10 Minutes Ago
+                                        </div>
+                                    </div>
+                                </div><!--/.widget-latest-causes-->
+                                <div class="widget-latest-causes">
+                                    <div class="widget-latest-causes__image-wrap">
+                                        <a href="#"><img class="widget-latest-causes__thubnail" src="images/sidebar/latest-causes2.jpg" alt=""></a>
+                                    </div>
+                                    <div class="widget-latest-causes__text-content">
+                                        <h4 class="widget-latest-causes__title"><a href="#">Cause Title Gose here</a></h4>
+                                        <div class="widget-latest-causes__admin small-text">
+                                            <i class="base-color fa fa-user widget-latest-causes__admin-icon"></i>
+                                            by <a href="#">Admin</a>
+                                        </div>
+                                        <div class="widget-latest-causes__time text-mute">
+                                            10 Minutes Ago
+                                        </div>
+                                    </div>
+                                </div><!--/.widget-latest-causes-->
+                                <div class="widget-latest-causes">
+                                    <div class="widget-latest-causes__image-wrap">
+                                        <a href="#"><img class="widget-latest-causes__thubnail" src="images/sidebar/latest-causes3.jpg" alt=""></a>
+                                    </div>
+                                    <div class="widget-latest-causes__text-content">
+                                        <h4 class="widget-latest-causes__title"><a href="#">Cause Title Gose here</a></h4>
+                                        <div class="widget-latest-causes__admin small-text">
+                                            <i class="base-color fa fa-user widget-latest-causes__admin-icon"></i>
+                                            by <a href="#">Admin</a>
+                                        </div>
+                                        <div class="widget-latest-causes__time text-mute">
+                                            10 Minutes Ago
+                                        </div>
+                                    </div>
+                                </div><!--/.widget-latest-causes-->
+                                <div class="widget-latest-causes">
+                                    <div class="widget-latest-causes__image-wrap">
+                                        <a href="#"><img class="widget-latest-causes__thubnail" src="images/sidebar/latest-causes4.jpg" alt=""></a>
+                                    </div>
+                                    <div class="widget-latest-causes__text-content">
+                                        <h4 class="widget-latest-causes__title"><a href="#">Cause Title Gose here</a></h4>
+                                        <div class="widget-latest-causes__admin small-text">
+                                            <i class="base-color fa fa-user widget-latest-causes__admin-icon"></i>
+                                            by <a href="#">Admin</a>
+                                        </div>
+                                        <div class="widget-latest-causes__time text-mute">
+                                            10 Minutes Ago
+                                        </div>
+                                    </div>
+                                </div><!--/.widget-latest-causes-->
+                            </div>
+                        </div>
+                        <div class="widget widget--tags">
+                            <div class="widget__heading">
+                                <h4 class="widget__title">TAG</h4>
+                            </div>
+                            <div class="widget__text-content">
+                                <a href="#">Charity</a>
+                                <a href="#">Helth</a>
+                                <a href="#">Hospital</a>
+                                <a href="#">iOS</a>
+                                <a href="#">Doctor</a>
+                                <a href="#">Donat</a>
+                                <a href="#">Medical</a>
+                                <a href="#">Children</a>
+                                <a href="#">Clinic</a>
+                                <a href="#">Helping</a>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="join-us-section all-text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="join-us">
+                        <div class="join-us__text-content">
+                            <h4 class="join-us__title">DO YOU WANT TO BUILD A BETTER WORLD?</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
+                        <div class="pdb30 pdt10">
+                            <a href="#" class="btn">JOIN US</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="fund-footer">
+        <div class="main-footer all-text-white section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="main-footer__top text-center pdb10">
+                            <a href="#" class="footer-logo"><img src="images/white-logo.png" alt="logo"></a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in  velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-eq-rs-height">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="widget widget--footer widget--userfull-link">
+                            <div class="widget__heading">
+                                <h4 class="widget__title">USEFULL LINKS</h4>
+                            </div>
+                            <div class="widget__text-content">
+                                <ul>
+                                    <li>Join our volunteer team.</li>
+                                    <li>Read our Letest News.</li>
+                                    <li>Check the upcoming Events.</li>
+                                    <li>Watch Our Mission.</li>
+                                    <li>Privacy & cookies policy.</li>
+                                </ul>
+                            </div>
+                        </div><!--/.widget-->
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="widget widget--footer widget--contact">
+                            <div class="widget__heading">
+                                <h4 class="widget__title">QUICK CONTACT</h4>
+                            </div>
+                            <div class="widget__text-content">
+                                <div class="contact-way">
+                                    <span class="base-bg contact-icon"><i class="fa fa-location-arrow"></i></span>
+                                    <span class="contact-text">310, Fleischmanns, NY, 12430</span>
+                                </div>
+                                <div class="contact-way">
+                                    <span class="base-bg contact-icon"><i class="fa fa-phone"></i></span>
+                                    <span class="contact-text">+8801 2345 12456</span>
+                                </div>
+                                <div class="contact-way">
+                                    <span class="base-bg contact-icon"><i class="fa fa-envelope-o"></i></span>
+                                    <span class="contact-text">support@thedund.com</span>
+                                </div>
+                                <div class="social-icons pdt5">
+                                    <span>Follow Us On : </span>
+                                    <ul class="list-inline pdl20">
+                                        <li><a href="#"><i class="fa fa-facebook"></i> </a> </li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i> </a> </li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i> </a> </li>
+                                        <li><a href="#"><i class="fa fa-instagram"></i> </a> </li>
+                                        <li><a href="#"><i class="fa fa-vk"></i> </a> </li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i> </a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div><!--/.widget-->
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="widget widget--footer widget--userfull-link">
+                            <div class="widget__heading">
+                                <h4 class="widget__title">NEWSLETTERS</h4>
+                            </div>
+                            <div class="widget__text-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicingse elit do eiusmod.</p>
+                                <form class="newsletter-form">
+                                    <input type="email" placeholder="Your email address" class="form-control newsletter-form__input" />
+                                    <input type="submit"  value="JOIN US" class="btn base-bg newsletter-form__submit">
+                                </form>
+                            </div>
+                        </div><!--/.widget-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area all-text-white pdt25 pdb25">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="copyright-text text-xs-center">
+                            &copy; 2017. All Rights Reserved. Developed by <span class="base-color">iGlyphic</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <ul class="footer-menu text-xs-center">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" id="toTop" class="cd-top"><i class="fa fa-angle-up"></i></a>
+    </footer>
+    <!-- // End Footer  -->
+    <!-- == jQuery Librery == -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <!-- == Bootsrap js File == -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- == mixitup == -->
+    <script src="js/mixitup.min.js"></script>
+    <!-- == Select 2 == -->
+    <script src="js/select2.min.js"></script>
+    <!-- == Select 2 == -->
+    <script src="js/jquery.colorbox-min.js"></script>
+    <!-- == Slick == -->
+    <script src="js/slick.min.js"></script>
+    <!-- == Counter == -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- == Countdown == -->
+    <script src="js/jquery.plugin.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <!-- == custom Js File == -->
+    <script src="js/custom.js"></script>
+    </body>
+</html>
