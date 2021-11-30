@@ -2,7 +2,7 @@
 **   Yellow Color
 -------------------------------------*/
 a:hover, a:focus, a.active {
-  color: #f57c00;
+  color: #ce8904;
 }
 
 .base-color,
@@ -18,7 +18,7 @@ a:hover, a:focus, a.active {
 .fund-arrow-left-list li:before,
 .fund-pagination a.next:hover,
 .event-details-counter-wrap .event-counter .countdown-period {
-  color: #f57c00;
+  color: #ce8904;
 }
 
 .btn.base-bg,
@@ -48,7 +48,7 @@ textarea.form-control:focus,
 .tobar-fixed-check input:checked + label:before,
 .backtop-top-check input:checked + label:before,
 .removetopbar input:checked + label:before {
-  border-color: #f57c00;
+  border-color: #ce8904;
 }
 
 .cd-top,
@@ -70,7 +70,7 @@ textarea.form-control:focus,
 .tobar-fixed-check input:checked + label:before,
 .backtop-top-check input:checked + label:before,
 .removetopbar input:checked + label:before {
-  background: #f57c00;
+  background: #ce8904;
 }
 
 .upcomming-event__date,

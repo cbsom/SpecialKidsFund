@@ -2,11 +2,11 @@
 **   Yellow Color
 -------------------------------------*/
 a:hover, a:focus, a.active {
-  color: #D50000;
+  color: #c4222a;
 }
 
 .btn {
-  color: #f57c00;
+  color: #ce8904;
 }
 
 .filter-options > li > a.active:before {
@@ -30,16 +30,17 @@ a:hover, a:focus, a.active {
 .blog-post__title a:hover,
 .footer-menu a:hover,
 .upcomming-event__title a:hover {
-  background-image: -webkit-linear-gradient(45deg, #f57c00 40%, #D50000 60%);
-  background-image: linear-gradient(45deg, #f57c00 40%, #D50000 60%);
+  background-image: -webkit-linear-gradient(45deg, #ce8904 40%, #c4222a 60%);
+  background-image: linear-gradient(45deg, #ce8904 40%, #c4222a 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
 }
 
-.slick-arrow, #easy-menu > ul > li > a:hover i {
-  color: #f57c00;
-  -webkit-text-fill-color: #f57c00;
+.slick-arrow,
+#easy-menu > ul > li > a:hover i {
+  color: #ce8904;
+  -webkit-text-fill-color: #ce8904;
 }
 
 .btn.base-bg,
@@ -69,7 +70,7 @@ textarea.form-control:focus,
 .tobar-fixed-check input:checked + label:before,
 .backtop-top-check input:checked + label:before,
 .removetopbar input:checked + label:before {
-  border-color: #f57c00;
+  border-color: #ce8904;
 }
 
 .base-bg,
@@ -91,16 +92,18 @@ textarea.form-control:focus,
 .tobar-fixed-check input:checked + label:before,
 .backtop-top-check input:checked + label:before,
 .removetopbar input:checked + label:before {
-  background-image: -webkit-linear-gradient(-45deg, #D50000 20%, #f57c00 100%);
-  background-image: linear-gradient(-45deg, #D50000 20%, #f57c00 100%);
+  background-image: -webkit-linear-gradient(-45deg, #c4222a 20%, #ce8904 100%);
+  background-image: linear-gradient(-45deg, #c4222a 20%, #ce8904 100%);
 }
 
 .upcomming-event__date,
 .blog-post__like-comment,
 .join-us-section,
-#cboxPrevious:before, #cboxNext:before, #cboxClose:before {
-  background-image: -webkit-linear-gradient(-45deg, #D50000 20%, #f57c00 100%);
-  background-image: linear-gradient(-45deg, #D50000 20%, #f57c00 100%);
+#cboxPrevious:before,
+#cboxNext:before,
+#cboxClose:before {
+  background-image: -webkit-linear-gradient(-45deg, #c4222a 20%, #ce8904 100%);
+  background-image: linear-gradient(-45deg, #c4222a 20%, #ce8904 100%);
 }
 
 .banner-area:before {
@@ -109,7 +112,7 @@ textarea.form-control:focus,
 }
 
 .our-causes__percentage {
-  background: #f57c00;
+  background: #ce8904;
 }
 
 /* -----------------------------------

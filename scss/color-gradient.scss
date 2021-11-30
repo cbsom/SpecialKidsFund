@@ -2,8 +2,10 @@
 **   Yellow Color
 -------------------------------------*/
 @import "base/variables.scss";
-a{
-    &:hover,&:focus,&.active{
+a {
+    &:hover,
+    &:focus,
+    &.active {
         color: $red;
         // background-image: -webkit-linear-gradient(45deg, $yellow 40%, $red 60%);
         //  background-image: linear-gradient(45deg, $yellow 40%, $red 60%);
@@ -12,10 +14,10 @@ a{
         //  -moz-background-clip: text;
     }
 }
-.btn{
+.btn {
     color: $yellow;
 }
-.filter-options > li > a.active:before{
+.filter-options > li > a.active:before {
     display: none;
 }
 .base-color,
@@ -34,19 +36,18 @@ a{
 .widget-latest-causes__title a:hover,
 .blog-post__title a:hover,
 .footer-menu a:hover,
-.upcomming-event__title a:hover
-{
+.upcomming-event__title a:hover {
     background-image: -webkit-linear-gradient(45deg, $yellow 40%, $red 60%);
-     background-image: linear-gradient(45deg, $yellow 40%, $red 60%);
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-     -moz-background-clip: text;
+    background-image: linear-gradient(45deg, $yellow 40%, $red 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
 }
-.slick-arrow,#easy-menu > ul > li > a:hover i{
+.slick-arrow,
+#easy-menu > ul > li > a:hover i {
     color: $yellow;
     -webkit-text-fill-color: $yellow;
 }
-
 
 .btn.base-bg,
 .all-text-white .btn:hover,
@@ -74,9 +75,7 @@ textarea.form-control:focus,
 .client-carusel .slick-active + .slick-active + .slick-active + .slick-active,
 .tobar-fixed-check input:checked + label:before,
 .backtop-top-check input:checked + label:before,
-.removetopbar input:checked + label:before
-
-{
+.removetopbar input:checked + label:before {
     border-color: $yellow;
 }
 .base-bg,
@@ -97,33 +96,26 @@ textarea.form-control:focus,
 .slick-dots li.slick-active button,
 .tobar-fixed-check input:checked + label:before,
 .backtop-top-check input:checked + label:before,
-.removetopbar input:checked + label:before
-{
+.removetopbar input:checked + label:before {
     background-image: -webkit-linear-gradient(-45deg, $red 20%, $yellow 100%);
     background-image: linear-gradient(-45deg, $red 20%, $yellow 100%);
 }
 .upcomming-event__date,
 .blog-post__like-comment,
 .join-us-section,
-#cboxPrevious:before, #cboxNext:before, #cboxClose:before
-{
+#cboxPrevious:before,
+#cboxNext:before,
+#cboxClose:before {
     background-image: -webkit-linear-gradient(-45deg, $red 20%, $yellow 100%);
     background-image: linear-gradient(-45deg, $red 20%, $yellow 100%);
 }
-.banner-area:before{
-    background-image: -webkit-linear-gradient(-45deg, rgba(193, 113, 8, 0.7) 20%, rgba(213, 0, 0, .7) 100%);
-    background-image: linear-gradient(-45deg, rgba(193, 113, 8, .7) 20%, rgba(213, 0, 0, .7) 100%);
+.banner-area:before {
+    background-image: -webkit-linear-gradient(-45deg, rgba(193, 113, 8, 0.7) 20%, rgba(213, 0, 0, 0.7) 100%);
+    background-image: linear-gradient(-45deg, rgba(193, 113, 8, 0.7) 20%, rgba(213, 0, 0, 0.7) 100%);
 }
-.our-causes__percentage{
+.our-causes__percentage {
     background: $yellow;
 }
-
-
-
-
-
-
-
 
 /* -----------------------------------
 ** End Yellow Color

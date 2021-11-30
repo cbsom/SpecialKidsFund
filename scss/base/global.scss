@@ -169,6 +169,7 @@ p{
     font-weight:600;
     text-transform:uppercase;
     margin-bottom: 5px;
+    color: $dark-blue;
     @include breakpoint(max_sm){
         font-size: 32px;
         line-height: 40px;
