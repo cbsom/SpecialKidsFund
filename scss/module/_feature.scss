@@ -3,6 +3,9 @@
 -------------------------------------*/
 .feature-section{
     padding-bottom: 55px;
+    &:first-of-type{
+        margin-top: 50px;
+    }
 }
 .feature-item{
     text-align: center;

@@ -1251,6 +1251,9 @@ hr {
 .feature-section {
   padding-bottom: 55px;
 }
+.feature-section:first-of-type {
+  margin-top: 50px;
+}
 
 .feature-item {
   text-align: center;
@@ -3258,8 +3261,8 @@ hr {
   position: relative;
   background-size: cover;
   background-position: center center;
-  padding-top: 153px;
-  padding-bottom: 170px;
+  padding-top: 130px;
+  padding-bottom: 110px;
 }
 @media (max-width: 991px) {
   .banner-area {
@@ -3268,7 +3271,6 @@ hr {
   }
 }
 .banner-area:before {
-  background: rgba(10, 170, 160, 0.7);
   position: absolute;
   left: 0;
   top: 0;
@@ -3277,25 +3279,25 @@ hr {
   content: "";
 }
 .banner-area--about-us {
-  background-image: url("../images/about/about-banner.jpg");
+  background-image: url("/images/about/about-banner.jpg");
 }
 .banner-area--events {
-  background-image: url("../images/events/event-banner.jpg");
+  background-image: url("/images/events/event-banner.jpg");
 }
 .banner-area--causes {
-  background-image: url("../images/causes/banner.jpg");
+  background-image: url("/images/causes/banner.jpg");
 }
 .banner-area--contact {
-  background-image: url("../images/contact/banner.jpg");
+  background-image: url("/images/contact/banner.jpg");
 }
 .banner-area--blog {
-  background-image: url("../images/blog/banner.jpg");
+  background-image: url("/images/blog/banner.jpg");
 }
 .banner-area--donate {
-  background-image: url("../images/donate/banner.jpg");
+  background-image: url("/images/donate/banner.jpg");
 }
 .banner-area--404 {
-  background-image: url("../images/404/banner.jpg");
+  background-image: url("/images/404/banner.jpg");
 }
 
 .page-title {

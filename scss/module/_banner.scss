@@ -5,14 +5,14 @@
     position: relative;
     background-size: cover;
     background-position: center center;
-    padding-top: 153px;
-    padding-bottom: 170px;
+    padding-top: 130px;
+    padding-bottom: 110px;
     @include breakpoint(max_md){
         padding-top: 83px;
         padding-bottom: 100px;
     }
     &:before{
-        background: rgba(10, 170, 160, .70);
+        //background: rgba(10, 170, 160, .70);
         position: absolute;
         left:0;
         top:0;
@@ -21,25 +21,25 @@
         content: '';
     }
     &--about-us{
-        background-image: url('../images/about/about-banner.jpg');
+        background-image: url('/images/about/about-banner.jpg');
     }
     &--events{
-        background-image: url('../images/events/event-banner.jpg');
+        background-image: url('/images/events/event-banner.jpg');
     }
     &--causes{
-        background-image: url('../images/causes/banner.jpg');
+        background-image: url('/images/causes/banner.jpg');
     }
     &--contact{
-        background-image: url('../images/contact/banner.jpg');
+        background-image: url('/images/contact/banner.jpg');
     }
     &--blog{
-        background-image: url('../images/blog/banner.jpg');
+        background-image: url('/images/blog/banner.jpg');
     }
     &--donate{
-        background-image: url('../images/donate/banner.jpg');
+        background-image: url('/images/donate/banner.jpg');
     }
     &--404{
-        background-image: url('../images/404/banner.jpg');
+        background-image: url('/images/404/banner.jpg');
     }
 }
 .page-title{
